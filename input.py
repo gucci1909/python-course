@@ -10,3 +10,15 @@ hey bro,
 "Hello sir"
 '''
 print(c);
+
+d = input();
+for character in d:
+ print(str(character))
+ 
+s = "poiujhjm"
+print(len(s))
+print(s[0:4])
+
+# strings are immutable
+ab = "Harry"
+print(ab.upper()) # -> new string will be created
